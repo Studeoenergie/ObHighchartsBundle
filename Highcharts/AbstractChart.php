@@ -30,11 +30,12 @@ abstract class AbstractChart
     public $navigation;
     public $pane;
     public $scrollbar;
+    public $navigator;
 
     public function __construct()
     {
         $chartOptions = array('chart', 'credits', 'global', 'labels', 'lang', 'legend', 'loading', 'plotOptions',
-            'rangeSelector', 'point', 'subtitle', 'title', 'tooltip', 'xAxis', 'yAxis', 'pane', 'exporting',
+            'rangeSelector', 'point', 'subtitle', 'title', 'tooltip', 'xAxis', 'yAxis', 'pane', 'exporting', 'navigator',
             'navigation', 'drilldown', 'scrollbar');
 
         foreach ($chartOptions as $option) {

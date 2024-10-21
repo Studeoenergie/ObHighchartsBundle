@@ -86,6 +86,9 @@ class Highchart extends AbstractChart implements ChartInterface
         // Tooltip
         $chartJS .= $this->renderWithJavascriptCallback($this->tooltip->tooltip, "tooltip");
 
+        // Navigator
+        $chartJS .= $this->renderWithJavascriptCallback($this->navigator->navigator, "navigator");
+
         // xAxis
         $chartJS .= $this->renderXAxis();
 
