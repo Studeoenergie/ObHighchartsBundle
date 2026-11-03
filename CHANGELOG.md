@@ -3,7 +3,9 @@
 
 ## [Unreleased]
 
-TBD
+* Add support for Symfony 6.4 and 7.x
+* Drop support for Symfony 4
+* Drop support for Twig 2
 
 
 ### [1.7.0] - 2020-01-12
